@@ -1,0 +1,78 @@
+Aula 3 - 4SEG
+
+Antimalware: procura detectar e, então, anular ou remover os códigos maliciosos de um computador.
+
+Exemplos de ferramentas antimalware: antivírus, antispyware, antirookit e antitrojan.
+
+A ferramenta que engloba a maior quantidade de funcionalidades é o antivírus.
+
+Tipos de ferramentas antimalware:
+
+- Método de detecção: assinatura (uma lista de assinaturas é usada à procura de padrões), heurística (baseia-se nas estruturas, instruções e características que o código malicioso possui) e comportamento (baseia-se no comportamento apresentado pelo código malicioso quando excecutado).
+- Forma de obtenção: podem ser gratuitos, experimentais e pagos.
+
+Diferenças das ferramentas antimalware:
+
+- Execução: podem ser localmente instalados no computador, executados sob demanda por intermédio do navegador web ou podem ser online.
+- Funcionalidades: além das funções básicas (detectar, anular e remover códigos maliciosos) também podem apresentar outras funcionalidades integradas, como a possibilidade de geração de discos de emergência e firewall pessoal.
+
+Firewall: 
+
+- É uma solução que isola a rede interna de uma organização da internet (ou de outras redes), permitindo que alguns pacotes sejam encaminhados e bloqueando outros;
+- Ele permite a um administrador de rede controlar o acesso entre o mundo externo e os recursos da rede que ele administra, gerenciando o fluxo de tráfego;
+- Pode ser implementado em uma combinação de hardware e software (UTM) ou via software. O primeiro garante um melhor desempenho e deve ser utilizado em locais com grande fluxo de dados.
+
+Os firewalls podem ser classificados em três categorias:
+
+- Filtros de pacotes tradicionais;
+- Filtros de estado;
+- Gateways de aplicação ou proxys.
+
+O firewall de filtro de pacotes surgiu na década de 80, também conhecido como filtragem estática.
+
+- Nele se analisa as informações do cabeçalho dos datagramas IP (pacotes), como: endereço IP de origem, destino, tamanho, tipo de serviço e etc;
+- Nele tem-se a dificuldade em filtrar protocolos que utilizam portas dinâmicas;
+- Permite explorar vulnerabilidades de protocolos e serviços da camada de aplicação;
+- Com evolução desse modelo, surge o stateless packet filter que permitia análise de mais detalhes no filtro de pacotes, como flags TCP (no Linux: IPCHAINS);
+- Uma nova evolução é o stateful packet filter, também conhecido como filtro dinâmico, utilizando um conjunto de regras de filtragem e informações de estado das conexões (no Linux: IPTABLES).
+
+Arquiteturas mais conhecidas:
+
+- Dual-Homed Host:
+
+• Fica entre uma rede interna e a rede externa - normalmente, a internet;
+• Todo o tráfego passa por este firewall, não havendo acesso da rede interna para a rede externa (e vice-versa) diretamente;
+• Vantagem: grande controle do tráfego;
+• Desvantagem: qualquer problema com o dual-homed pode pôr em risco a segurança da rede ou mesmo paralisar o tráfego.
+
+- Screened Host:
+
+• Há dois dispositivos intermediadores: um que faz o papel de roteador (screening router) e outro chamado de bastion host;
+• Basicamente, o bastion host não permite que a rede interna se comunique diretamente com o roteador (e vice-versa). Todas as decisões tomadas pelo roteador são revisadas também pelo bastion host.
+• Ponto crítico da estrutura: o bastion host precisa ser bem protegido.
+
+- Screened Subnet:
+
+• O bastion host fica dentro de uma área isolada de nome interessante: a DMZ, sigla para Demilitarized Zone;
+• Caso o invasor passe pelo primeiro roteador, terá ainda que lidar com a zona desmilitarizada – zona de maior segurança;
+• Na DMZ, normalmente, ficam os serviços acessíveis pela internet;
+• O nível segurança e a flexibilidade de configuração fazem da Screened Subnet uma arquitetura normalmente mais complexa e, consequentemente, mais cara.
+
+- Gateway de aplicações ou Proxy:
+
+• Gateways de aplicação fazem mais do que examinar cabeçalhos IP/TCP/UDP e tomam decisões com base em dados da aplicação;
+• Necessita de 2 conexões: 1 - Cliente/Proxy e 2 - Proxy/Servidor;
+
+Pode ser implementado:
+• Conexão direta: configurando o navegador;
+• Proxy de Autenticação: usuário se identifica e autentica;
+• Proxy Transparente: NÃO configura o navegador, o usuário não tem o conhecimento da existência do proxy ou que o utiliza.
+
+Vantagens de uso de Gateway de Aplicações ou Proxy:
+• Impor restrições com base em: horários, login, endereço IP, etc;
+• Implementar cache de páginas e arquivos;
+• Registrar todos os acesso (LOGs).
+
+Desvantagens de uso de Gateway de Aplicações ou Proxy:
+• Pode utilizar servidores diferentes para cada aplicação (serviço);
+• Aumenta o atraso ao acessar um serviço.

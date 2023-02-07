@@ -1,0 +1,188 @@
+Aula 2 - 4SEG
+
+Vulnerabilidade x Ameaça = Risco
+Pode existir uma ameaça e também pode existir uma vulnerabilidade, mas não necessariamente existirá um risco.
+
+Risco: é o potencial de que uma dada ameaça venha a explorar vulnerabilidades em um determinado ativo, comprometendo sua segurança.
+
+Ativo: é qualquer item de valor para a organização.
+Ex.: dados e informações, rede, servidores, estações, softwares e pessoas.
+
+Ameaça: é qualquer condição que possa causar dano, perda ou comprometimento de um ativo.
+Ex.: desastres naturais, ataques cibernéticos, violação da integridade dos dados, vazamento de dados confidenciais, malwares e insiders.
+
+Ameaças naturais:
+- Ameaças decorrentes de fenômenos da natureza.
+
+Ameaças involuntárias:
+- Falha no treinamento, acidentes, erros ou omissões.
+
+Ameaças intencionais:
+- Ameaças propositais causadas por agentes humanos como: invasores, espiões, ladrões, criadores e disseminadores de vírus.
+
+Códigos maliciosos:
+- Programas desenvolvidos para executar ações danosas e atividades maliciosas em um computador.
+
+O dispositivo pode ser infectado ou comprometido:
+
+- Pela exploração de vulnerabilidades nos programas instalados;
+- Pela autoexecução de mídias removíveis infectadas;
+- Pelo acesso a páginas web maliciosas;
+- Pela ação direta de atacantes;
+- Pela execução de arquivos infectados;
+- Anexos em mensagens eletrônicas.
+
+Por que códigos maliciosos são desenvolvidos e propagados?
+
+- Obtenção de vantagens financeiras;
+- Coleta de informações confidenciais;
+- Desejo de autopromoção;
+- Vandalismo.
+
+Nomenclatura dos atacantes:
+
+- Hacker: uma pessoa intensivamente interessada em pesquisar sistemas operacionais. Constantemente buscam por novos conhecimentos, os compartilham e nunca causam destruição;
+- Cracker: pessoa que invade ou viola sistemas com má intenção;
+- Phreaker: é o cracker especializado em telefonia;
+- Script kiddies: são pessoas que utilizam receitas de bolo para crackear.
+
+Definições:
+
+- Ataque: qualquer tentativa de acesso ou uso não autorizado de um serviço, computador ou rede;
+- Exploit: programa ou parte de um programa malicioso projetado para explorar uma vulnerabilidade existente em um programa de computador;
+- Código malicioso: termo genérico usado para se referir a programas desenvolvidos para executar ações danosas;
+- Tipos específicos: vírus, worm, bot, spyware, backdoor, cavalo de tróia e rootkit.
+
+Tipos de ataque:
+
+- Passivo: possuem a natureza de bisbilhotar ou monitorar transmissões;
+- Ativo: envolvem alguma modificação do fluxo de dados ou a criação de um fluxo falso.
+
+Invasão: ataque bem sucedido que resulte no acesso, manipulação ou destruição de informações em um computador.
+
+Os ataques podem ser classificados como:
+
+- Ataque para obtenção de informações: permite obter informações sobre um endereço específico, sobre o sistema operacional, a arquitetura do sistema e os 
+serviços que estão sendo executados em cada computador;
+
+- Ataque ao sistema operacional: os sistemas operacionais atuais apresentam uma natureza muito complexa devido a implementação de vários serviços, portas abertas
+por padrão e diversos programas instalados. Muitas vezes a aplicação de patches não é tarefa tão trivial devido a essa complexidade dos sistemas, da própria 
+rede de computadores ou ainda pela falta de conhecimento e perfil do profissional de TI.
+
+- Ataque à aplicação: na maioria das vezes para conseguir entregar os produtos no prazo acordado, os desenvolvedores tem um tempo de desenvolvimento muito curto.
+As aplicações muitas vezes são desenvolvidas com um grande número de funcionalidades e recursos e seja para cumprir prazos ou pela falta de profissionais, não 
+são realizados testes antes da liberação do produto.
+
+- Ataque de códigos pré-fabricados: quando um administrador de sistemas instala um sistema operacional ou uma aplicação, normalmente já existem uma série de 
+scripts prontos, que acompanham a instalação e tornam o trabalho dos administradores mais fácil e ágil. Porém, o problema na utilização destes scripts é que não 
+passaram por um processo de refinamento e customização quanto as reais necessidades de cada administrador.
+
+- Ataque de configuração mal feita: muitos sistemas que deveriam estar fortemente seguros apresentam vulnerabilidades, pois não foram configurados corretamente.
+
+As escolhas de ataque mais comuns são:
+
+- Desfiguração de página (defacement): consiste em alterar o conteúdo da página web de um site;
+
+- Escuta de tráfego: consiste em inspecionar os dados trafegados em redes de computadores por meio do uso de programas específicos;
+
+- Força bruta: consiste em adivinhar, por tentativa e erro, um nome de usuário e senha de um serviço ou sistema;
+
+- Varredura em redes (scan): consiste em efetuar buscar minuciosas em redes, com o objetivo de identificar computadores ativos e coletar informações sobre eles;
+
+- Engenharia social: método de ataque onde alguém faz o uso da persuasão, muitas vezes abusando da ingenuidade ou confiança do usuário, para obter informações 
+que podem ser utilizadas para ter acesso não autorizado a computadores ou informações;
+
+- Phishing scan: é um método de ataque que se dá através do envio de mensagem não solicitada com o intuito de induzir o acesso a páginas fradulentas, projetadas 
+para furtar dados pessoais e financeiros da vítima;
+
+- SQL injection: é um tipo de ameaça que se aproveita de falhas em sistemas que interagem com bases de dados através da utilização do SQL;
+
+- Ataque de negação de serviço (DoS): é uma tentativa em tornar os recursos de um sistema indisponíveis para ser utilizados. Neste tipo de ataque não ocorre 
+uma invasão no sistema, mas sua invalidação por sobrecarga;
+
+- Ataques coordenados (DDoS): neste tipo de ataque um computador "mestre" pode ter sob seu comando até milhares de computadores, que terão a tarefa de ataque de
+negação de serviço.
+
+Vulnerabilidade: condição que, quando explorada por um atacante, pode rsultar em uma violação de segurança.
+
+Vulnerabilidades físicas: 
+- Instalações prediais fora dos padrões de engenharia;
+- Salas de servidores mal planejadas;
+- Falta de extintores, detectores de fumaça e de outros recursos para detecção e combate a incêndio.
+
+Vulnerabilidades naturais:
+- Possibilidade de desastres naturais;
+- Problemas nos equipamentos de apoio.
+
+Vulnerabilidades de software:
+- Erros de instalação ou de configuração, possibilitando acessos indevidos, vazamento de informações, perda de dados ou indisponibilidade de recursos quando 
+necessários.
+
+Vulnerabilidades de comunicação:
+- Acessos não autorizados ou perda de comunicação;
+- Ausência de sistemas de criptografia nas comunicações;
+- Má escolha dos sistemas de comunicação para envio de mensagens de alta prioridade da empresa.
+
+Vulnerabilidades humanas:
+- Falta de treinamento;
+- Compartilhamento de informações confidenciais;
+- Falta de execução de rotinas de segurança;
+- Erros ou omissões;
+- Terrorismo ou vandalismo.
+
+Análise das vulnerabilidades:
+
+- Tem por objetivo verificar a existência de falhas de segurança no ambiente de TI das empresas.
+- É uma ferramenta importante para a implementação de controles de segurança eficientes sobre os ativos de informação das empresas;
+- É realizada através de um levantamento detalhado do ambiente computacional da empresa, verificando se o ambiente atual fornece condições de segurança 
+compatíveis com a importância estratégica dos serviços que fornece ou desempenha;
+
+Importância dos testes:
+
+- Conhecer as fragilidades de redes de computadores;
+- Conhecer os aletras de segurança antes de um ataque de rede;
+- Conhecer como recuperar uma rede após um ataque;
+- As portas dos protocolos TCP/IP que encontram-se desprotegidas;
+- Os sistemas operacionais utilizados;
+- Patches e service packs aplicados;
+- Reconhecer bugs;
+- Reconhecer fraquezas e falhas nas implementações de segurança;
+- Reconhecer fraquezas e falhas nos softwares dos equipamentos de comunicações;
+- Reconhecer fraquezas e falhas nos scripts que executam nos servidores web;
+- Identificar e corrigir vulnerabilidades de rede;
+- Proteger a rede;
+- Obter informações que ajudam a prevenir os problemas de segurança;
+- Obter informações sobre vírus.
+
+Avaliação de risco:
+
+- Identificar ameaças;
+- Identificar vulnerabilidades;
+- Determinar a probabilidade;
+- Determinar o impacto;
+- Determinar o risco.
+
+Annual Loss Expectancy (ALE): ajuda a determinar quando aceitar, evitar, transferir ou mitigar o risco.
+
+ALE = Custo * Ocorrências
+
+Ransomware:  é um tipo de código malicioso que torna inacessíveis os dados armazenados em um equipamento, geralmente usando criptografia, e que exige pagamento de 
+resgate (ransom) para restabelecer o acesso ao usuário.
+
+O ransomware pode se propagar de diversas formas, embora as mais comuns sejam:
+- Através de e-mails com o código malicioso em anexo ou que induzam o usuário a seguir um link;
+- Explorando vulnerabilidades em sistemas que não tenham recebido as devidas atualizações de segurança.
+
+Existem dois tipos de ransomware:
+- Ransomware Locker: impede que você acesse o equipamento infectado.
+- Ransomware Crypto: impede que você acesse aos dados armazenados no equipamento infectado, geralmente usando criptografia.
+
+Além de infectar o equipamento o ransomware também costuma buscar outros dispositivos conectados, locais ou em rede, e criptografá-los também.
+
+Para se proteger de ransomware você deve tomar os mesmos cuidados que toma para evitar os outros códigos maliciosos, como:
+- Manter o sistema operacional e os programas instalados com todas as atualizações aplicadas;
+- Ter um antivírus instalado;
+- Ser cuidadoso ao clicar em links ou abrir arquivos.
+
+Fazer backups regularmente também é essencial para proteger os seus dados pois, se seu equipamento for infectado, a única garantia de que você conseguirá 
+acessá-los novamente é possuir backups atualizados. O pagamento do resgate não garante que você conseguirá restabelecer o acesso aos dados.

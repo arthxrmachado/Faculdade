@@ -1,0 +1,26 @@
+Resumo - Aula 6:
+
+Com o crescimento da importância da área de TI para o sistema corporativo, surgiu o conceito de Governança de TI, que tem por objetivo:
+
+- Melhorar os processos de TI;
+- Alinhar a gestão de TI com estratégias da organização;
+- Melhor gerir os recursos de TI (aplicativos, informações, infraestrutura e pessoas).
+
+A Governança de TI habilita a organização a:
+
+- Obter todas as vantagens de sua informação;
+- Maximizar os benefícios;
+- Capitalizar as oportunidades;
+- Ganhar em poder competitivo.
+
+O que é Governança de TI?
+
+- A Governaça de TI direciona os processos de TI e monitora o cumprimento das regras estabelecidas (normas e políticas).
+
+O que é Gestão de TI?
+
+- A gestão de TI é responsável por manter o desempenho de serviços, promover a transformação digital na empresa, manter a satisfação dos usuários e clientes dos serviços, além de fazer 
+a gestão da equipe de TI.
+
+A Gestão e Governança de TI servem para garantir que a TI faça certo as coisas certas, ou seja, padronizar os processos, definir como os serviços serão solicitados e atendidos, 
+desenvolver projetos que deem um gás no desempenho da TI, mitigar os riscos possíveis e medir os resultados que a TI está entregando para o negócio.

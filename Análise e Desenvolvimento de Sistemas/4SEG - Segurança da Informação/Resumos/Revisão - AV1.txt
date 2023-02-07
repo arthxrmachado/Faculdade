@@ -1,0 +1,363 @@
+-----------------------------------------------------------------------------
+
+Revisão para a AV1
+
+-----------------------------------------------------------------------------
+
+Segurança da informação: conjunto de ações para proteção de um grupo de dados, protegendo o valor que ele possui.
+
+Garante a exatidão, a integridade e a disponibilidade das informações da organização, além de garantir a confidencialidade e a privacidade dos dados.
+
+Implementar segurança da informação: é a proteção da informação contra vários tipos de ameaças para garantir a continuidade, minimizar o risco, maximizar o retorno sobre os investimentos e as oportunidades do negócio.
+
+A segurança da informação baseia-se nos seguintes pilares: confidencialidade, integridade, disponibilidade e autenticidade.
+
+-----------------------------------------------------------------------------
+
+Confidencialidade:
+
+Por exemplo, um erro de confidencialidade pode expor dados estratégicos da organização para concorrentes, ou então um vazamento de dados de clientes realizado por hackers.
+
+-----------------------------------------------------------------------------
+
+Integridade:
+
+A integridade das informações também é essencial. Por exemplo, um erro no disco rígido pode corromper determinados arquivos importantes. Sem um backup, as funções da empresa podem ficar comprometidas.
+
+-----------------------------------------------------------------------------
+
+Disponibilidade:
+
+Disponibilidade é outro ponto essencial, já que os dados precisam estar acessíveis no momento em que foram requisitados, principalmente para garantir a agilidade dos processos.
+
+Isso pode ser impedido, por exemplo, por ataques de sequestro de dados (ransomware), que tem justamente a indisponibilidade como objetivo.
+
+-----------------------------------------------------------------------------
+
+Autenticidade:
+
+Por fim, para garantir a segurança de dados, é fundamental garantir meios de autenticidade das informações preservadas.
+
+-----------------------------------------------------------------------------
+
+12 boas práticas para previnir situações de riscos na área de TI:
+
+1 - Acompanhar as tendências e evoluções da área;
+2 - Manter os softwares e drives atualizados;
+3 - Estabelecer controles de acesso para os colaboradores;
+4 - Estabelecer bloqueio de sistemas de saída;
+5 - Criar políticas de segurança na empresa;
+6 - Alinhar os processos às políticas de segurança;
+7 - Treinar os colaboradores para medidas de segurança;
+8 - Tenha ferramentas de monitoramento;
+9 - Utilizar a criptografia de dados;
+10 - Conte com ajuda de empresas especializadas em segurança da informação;
+11 - Criar planos de contingência;
+12 - Invistir em backup.
+
+-----------------------------------------------------------------------------
+
+Devemos garantir às informações aos dados armazenados. Inicialmente utilizou-se o que chamamos de CID:
+
+- Confidencialidade: garantir acesso à informação somente por pessoas autorizadas;
+- Integridade: garantir a completude e exatidão da informação e os métodos de processamento seguros;
+- Disponibilidade: garantir o acesso à informação, quando necessário.
+
+Estes princípios foram ampliados para atender a novas necessidades:
+
+- Autenticidade: garantir a identidade dos membros de comunicação;
+- Legalidade: garantir a conformidade da informação com a legislação em todas as esferas;
+- Não repúdio: garantir que o gerador da informação não possa negar sua autoria ou alteração;
+- Auditoria: garantir o rastreamento dos fatos de um evento e identificar os envolvidos.
+
+-----------------------------------------------------------------------------
+
+Vulnerabilidade x Ameaça = Risco
+Pode existir uma ameaça e também pode existir uma vulnerabilidade, mas não necessariamente existirá um risco.
+
+Risco: é o potencial de que uma dada ameaça venha a explorar vulnerabilidades em um determinado ativo, comprometendo sua segurança.
+
+Ativo: é qualquer item de valor para a organização.
+Ex.: dados e informações, rede, servidores, estações, softwares e pessoas.
+
+Ameaça: é qualquer condição que possa causar dano, perda ou comprometimento de um ativo.
+Ex.: desastres naturais, ataques cibernéticos, violação da integridade dos dados, vazamento de dados confidenciais, malwares e insiders.
+
+Vulnerabilidade: condição que, quando explorada por um atacante, pode resultar em uma violação de segurança.
+
+-----------------------------------------------------------------------------
+
+Ameaças naturais:
+- Ameaças decorrentes de fenômenos da natureza.
+
+Ameaças involuntárias:
+- Falha no treinamento, acidentes, erros ou omissões.
+
+Ameaças intencionais:
+- Ameaças propositais causadas por agentes humanos como: invasores, espiões, ladrões, criadores e disseminadores de vírus.
+
+Códigos maliciosos:
+- Programas desenvolvidos para executar ações danosas e atividades maliciosas em um computador.
+
+Nomenclatura dos atacantes:
+
+- Hacker: uma pessoa intensivamente interessada em pesquisar sistemas operacionais. Constantemente buscam por novos conhecimentos, os compartilham e nunca causam destruição;
+- Cracker: pessoa que invade ou viola sistemas com má intenção;
+- Phreaker: é o cracker especializado em telefonia;
+- Script kiddies: são pessoas que utilizam receitas de bolo para crackear.
+
+Definições:
+
+- Ataque: qualquer tentativa de acesso ou uso não autorizado de um serviço, computador ou rede;
+- Exploit: programa ou parte de um programa malicioso projetado para explorar uma vulnerabilidade existente em um programa de computador;
+- Código malicioso: termo genérico usado para se referir a programas desenvolvidos para executar ações danosas;
+- Tipos específicos: vírus, worm, bot, spyware, backdoor, cavalo de tróia e rootkit.
+
+Tipos de ataque:
+
+- Passivo: possuem a natureza de bisbilhotar ou monitorar transmissões;
+- Ativo: envolvem alguma modificação do fluxo de dados ou a criação de um fluxo falso.
+
+Invasão: ataque bem sucedido que resulte no acesso, manipulação ou destruição de informações em um computador.
+
+Os ataques podem ser classificados como:
+
+- Ataque para obtenção de informações: permite obter informações sobre um endereço específico, sobre o sistema operacional, a arquitetura do sistema e os serviços que estão sendo executados em cada computador;
+
+- Ataque ao sistema operacional: os sistemas operacionais atuais apresentam uma natureza muito complexa devido a implementação de vários serviços, portas abertas por padrão e diversos programas instalados. Muitas vezes a aplicação de patches não é tarefa tão trivial devido a essa complexidade dos sistemas, da própria rede de computadores ou ainda pela falta de conhecimento e perfil do profissional de TI.
+
+- Ataque à aplicação: na maioria das vezes para conseguir entregar os produtos no prazo acordado, os desenvolvedores tem um tempo de desenvolvimento muito curto. As aplicações muitas vezes são desenvolvidas com um grande número de funcionalidades e recursos e seja para cumprir prazos ou pela falta de profissionais, não são realizados testes antes da liberação do produto.
+
+- Ataque de códigos pré-fabricados: quando um administrador de sistemas instala um sistema operacional ou uma aplicação, normalmente já existem uma série de scripts prontos, que acompanham a instalação e tornam o trabalho dos administradores mais fácil e ágil. Porém, o problema na utilização destes scripts é que não passaram por um processo de refinamento e customização quanto as reais necessidades de cada administrador.
+
+- Ataque de configuração mal feita: muitos sistemas que deveriam estar fortemente seguros apresentam vulnerabilidades, pois não foram configurados corretamente.
+
+As escolhas de ataque mais comuns são:
+
+- Desfiguração de página (defacement): consiste em alterar o conteúdo da página web de um site;
+
+- Escuta de tráfego: consiste em inspecionar os dados trafegados em redes de computadores por meio do uso de programas específicos;
+
+- Força bruta: consiste em adivinhar, por tentativa e erro, um nome de usuário e senha de um serviço ou sistema;
+
+- Varredura em redes (scan): consiste em efetuar buscar minuciosas em redes, com o objetivo de identificar computadores ativos e coletar informações sobre eles;
+
+- Engenharia social: método de ataque onde alguém faz o uso da persuasão, muitas vezes abusando da ingenuidade ou confiança do usuário;
+
+- Phishing scan: é um método de ataque que se dá através do envio de mensagem não solicitada com o intuito de induzir o acesso a páginas fradulentas, projetadas para furtar dados pessoais e financeiros da vítima;
+
+- SQL injection: é um tipo de ameaça que se aproveita de falhas em sistemas que interagem com bases de dados através da utilização do SQL;
+
+- Ataque de negação de serviço (DoS): é uma tentativa em tornar os recursos de um sistema indisponíveis para ser utilizados. Neste tipo de ataque não ocorre uma invasão no sistema, mas sua invalidação por sobrecarga;
+
+- Ataques coordenados (DDoS): neste tipo de ataque um computador "mestre" pode ter sob seu comando até milhares de computadores, que terão a tarefa de ataque denegação de serviço.
+
+-----------------------------------------------------------------------------
+
+Vulnerabilidades físicas: 
+- Instalações prediais fora dos padrões de engenharia;
+- Salas de servidores mal planejadas;
+- Falta de extintores, detectores de fumaça e de outros recursos para detecção e combate a incêndio.
+
+Vulnerabilidades naturais:
+- Possibilidade de desastres naturais;
+- Problemas nos equipamentos de apoio.
+
+Vulnerabilidades de software:
+- Erros de instalação ou de configuração, possibilitando acessos indevidos, vazamento de informações, perda de dados ou indisponibilidade de recursos quando necessários.
+
+Vulnerabilidades de comunicação:
+- Acessos não autorizados ou perda de comunicação;
+- Ausência de sistemas de criptografia nas comunicações;
+- Má escolha dos sistemas de comunicação para envio de mensagens de alta prioridade da empresa.
+
+Vulnerabilidades humanas:
+- Falta de treinamento;
+- Compartilhamento de informações confidenciais;
+- Falta de execução de rotinas de segurança;
+- Erros ou omissões;
+- Terrorismo ou vandalismo.
+
+Análise das vulnerabilidades:
+
+- Tem por objetivo verificar a existência de falhas de segurança no ambiente de TI das empresas.
+- É uma ferramenta importante para a implementação de controles de segurança eficientes sobre os ativos de informação das empresas;
+- É realizada através de um levantamento detalhado do ambiente computacional da empresa, verificando se o ambiente atual fornece condições de segurança 
+compatíveis com a importância estratégica dos serviços que fornece ou desempenha;
+
+-----------------------------------------------------------------------------
+
+Importância dos testes:
+
+- Conhecer as fragilidades de redes de computadores;
+- Conhecer os aletras de segurança antes de um ataque de rede;
+- Conhecer como recuperar uma rede após um ataque;
+- As portas dos protocolos TCP/IP que encontram-se desprotegidas;
+- Os sistemas operacionais utilizados;
+- Patches e service packs aplicados;
+- Reconhecer bugs;
+- Reconhecer fraquezas e falhas nas implementações de segurança;
+- Reconhecer fraquezas e falhas nos softwares dos equipamentos de comunicações;
+- Reconhecer fraquezas e falhas nos scripts que executam nos servidores web;
+- Identificar e corrigir vulnerabilidades de rede;
+- Proteger a rede;
+- Obter informações que ajudam a prevenir os problemas de segurança;
+- Obter informações sobre vírus.
+
+Avaliação de risco:
+
+- Identificar ameaças;
+- Identificar vulnerabilidades;
+- Determinar a probabilidade;
+- Determinar o impacto;
+- Determinar o risco.
+
+-----------------------------------------------------------------------------
+
+Annual Loss Expectancy (ALE): ajuda a determinar quando aceitar, evitar, transferir ou mitigar o risco.
+
+ALE = Custo * Ocorrências
+
+Ransomware:  é um tipo de código malicioso que torna inacessíveis os dados armazenados em um equipamento, geralmente usando criptografia, e que exige pagamento de resgate (ransom) para restabelecer o acesso ao usuário.
+
+O ransomware pode se propagar de diversas formas, embora as mais comuns sejam:
+- Através de e-mails com o código malicioso em anexo ou que induzam o usuário a seguir um link;
+- Explorando vulnerabilidades em sistemas que não tenham recebido as devidas atualizações de segurança.
+
+Existem dois tipos de ransomware:
+- Ransomware Locker: impede que você acesse o equipamento infectado.
+- Ransomware Crypto: impede que você acesse aos dados armazenados no equipamento infectado, geralmente usando criptografia.
+
+Além de infectar o equipamento o ransomware também costuma buscar outros dispositivos conectados, locais ou em rede, e criptografá-los também.
+
+Para se proteger de ransomware você deve tomar os mesmos cuidados que toma para evitar os outros códigos maliciosos, como:
+- Manter o sistema operacional e os programas instalados com todas as atualizações aplicadas;
+- Ter um antivírus instalado;
+- Ser cuidadoso ao clicar em links ou abrir arquivos.
+
+Fazer backups regularmente também é essencial para proteger os seus dados pois, se seu equipamento for infectado, a única garantia de que você conseguirá acessá-los novamente é possuir backups atualizados. O pagamento do resgate não garante que você conseguirá restabelecer o acesso aos dados.
+
+-----------------------------------------------------------------------------
+
+Ferramentas antimalware: procura detectar e, então, anular ou remover os códigos maliciosos de um computador.
+
+Exemplos de ferramentas antimalware: antivírus, antispyware, antirookit e antitrojan.
+
+Tipos de ferramentas antimalware:
+
+- Método de detecção: assinatura (uma lista de assinaturas é usada à procura de padrões), heurística (baseia-se nas estruturas, instruções e características que o código malicioso possui) e comportamento (baseia-se no comportamento apresentado pelo código malicioso quando excecutado).
+- Forma de obtenção: podem ser gratuitos, experimentais e pagos.
+
+Diferenças das ferramentas antimalware:
+
+- Execução: podem ser localmente instalados no computador, executados sob demanda por intermédio do navegador web ou podem ser online.
+- Funcionalidades: além das funções básicas (detectar, anular e remover códigos maliciosos) também podem apresentar outras funcionalidades integradas, como a possibilidade de geração de discos de emergência e firewall pessoal.
+
+-----------------------------------------------------------------------------
+
+Firewall:
+
+- Firewall atua como uma espécie de barreira que verifica quais dados podem passar ou não.
+- É uma solução que isola a rede interna de uma organização da internet (ou de outras redes), permitindo que alguns pacotes sejam encaminhados e bloqueando outros;
+- Pode ser implementado em uma combinação de hardware e software ou via software. O primeiro garante um melhor desempenho e deve ser utilizado em locais com grande fluxo de dados.
+
+Os firewalls podem ser classificados em três categorias:
+
+- Filtros de pacotes tradicionais;
+- Filtros de estado;
+- Gateways de aplicação ou proxys.
+
+Arquiteturas mais conhecidas:
+
+- Dual-Homed Host:
+
+• Fica entre uma rede interna e a rede externa - normalmente, a internet;
+• Todo o tráfego passa por este firewall, não havendo acesso da rede interna para a rede externa (e vice-versa) diretamente;
+• Vantagem: grande controle do tráfego;
+• Desvantagem: qualquer problema com o dual-homed pode pôr em risco a segurança da rede ou mesmo paralisar o tráfego.
+
+- Screened Host:
+
+• Há dois dispositivos intermediadores: um que faz o papel de roteador (screening router) e outro chamado de bastion host;
+• Basicamente, o bastion host não permite que a rede interna se comunique diretamente com o roteador (e vice-versa). Todas as decisões tomadas pelo roteador são revisadas também pelo bastion host.
+
+- Screened Subnet:
+
+• O bastion host fica dentro de uma área isolada de nome interessante: a DMZ, sigla para Demilitarized Zone;
+• Caso o invasor passe pelo primeiro roteador, terá ainda que lidar com a zona desmilitarizada – zona de maior segurança;
+• O nível segurança e a flexibilidade de configuração fazem da Screened Subnet uma arquitetura normalmente mais complexa e, consequentemente, mais cara.
+
+-----------------------------------------------------------------------------
+
+Um IDS/IPS pode ser usado para detectar uma série de tipos de ataques.
+
+- Um dispositivo que gera alertas quando observa tráfegos potencialmente mal-intencionados é chamado de sistema de detecção de invasão (IDS - Intrusion Detection System);
+- Um dispositivo que filtra o tráfego suspeito é chamado de sistema de prevenção de invasão (IPS - Intrusion Prevention System).
+
+Pode-se utilizar um ou mais sensores IDS/IPS na organização. Quando múltiplos sistemas são executados, eles costumam trabalhar em harmonia, enviando informações sobre atividades de tráfegos suspeitos ao processador IDS/IPS central, que as coleta e integra e envia alarmes aos administradores da rede quando acharem apropriado.
+
+Sistemas IDS/IPS são classificados de modo geral tanto como sistemas baseados em assinatura, ou sistemas baseados em anomalia.
+
+- Um IDS/IPS baseado em assinatura mantém um banco de dados extenso de ataques de assinaturas. Uma assinatura pode ser uma lista de características sobre um único pacote ou estar relacionada a uma série de pacotes;
+- Operacionalmente, uma IDS/IPS baseada em assinatura analisa cada pacote que passa, comparando cada um com as assinaturas no banco de dados. Se um pacote (ou uma série deles) corresponder a uma assinatura no banco de dados, o IDS/IPS gera um alerta. O alerta pode ser enviado ao administrador da rede por uma mensagem de correio eletrônico, pode ser enviado ao sistema de gerenciamento da rede, ou pode simplesmente ser registrado para futuras inspeções.
+
+Algumas desvantagens de uso de IDS/IPS baseado em assinaturas:
+
+- É completamente cego a novos ataques que ainda não foram registrados;
+- Mesmo que uma assinatura combine, isso pode não ser o resultado de um ataque, mas um alarme é gerado (falso positivo);
+- Pelo fato de cada pacote ser comparado com uma extensa coleção de assinaturas, o IDS/IPS fica atarefado com o processamento e deixa de detectar muitos pacotes malignos.
+
+-----------------------------------------------------------------------------
+
+Noções de criptografia:
+
+- Criptografia convencional ou simétrica: uso de mesma chave para criptografar e decriptografar a mensagem;
+
+- Criptografia por chave pública ou assimétrica: uso de chaves diferentes para as etapas de criptografia e decriptografia da mensagem;
+
+A força do seu sistema está associada à força de sua chave.
+
+O padrão X.800 distingue os mecanismos de criptografia reversíveis e irreversíveis:
+
+- Um mecanismo de criptografia reversível é simplesmente um algoritmo de criptografia que permite que os dados sejam criptografados e subsequentemente decriptografados;
+
+- Mecanismos de criptografia irreversíveis incluem algoritmos de hash e códigos de autenticação de mensagem, que são usados em aplicações de assinatura digital e autenticação de mensagens.
+
+A criptografia tem 4 objetivos principais: confidencilidade, integridade, autenticação e não-repúdio.
+
+Cifras de substituição: em uma cifra de substituição, cada letra ou grupo de letras é substituído por outra letra ou grupo de letras, de modo a criar um "disfarce“.
+
+Cifras de transposição: As cifras de substituição preservam a ordem dos símbolos no texto simples, mas disfarçam esses símbolos. Por outro lado, as cifras de transposição reordenam as letras, mas não as disfarçam.
+
+Criptografia de Chave Única ou Simétrica:
+
+• Utiliza um algoritmo e uma chave para cifrar e decifrar;
+• A chave tem que ser mantida em segredo;
+• O conhecimento do algoritmo e de parte do texto cifrado deve ser insuficiente para obtenção da chave;
+• Normalmente utilizam cifra de bloco.
+
+• Criptografia de Chave Pública ou Assimétrica:
+
+• É um método de criptografia que utiliza um par de chaves: uma chave pública e uma chave privada;
+• A chave pública é distribuída livremente para todos os correspondentes via e-mail ou outras formas;
+• A chave privada deve ser conhecida apenas pelo seu dono.
+
+-----------------------------------------------------------------------------
+
+Algoritmo de chave simétrica: Algoritmos de chave simétrica são algoritmos para criptografia que usam a mesma chave criptográfica para encriptação de texto puro e decriptação de texto cifrado. A chave, na prática, representa um segredo compartilhado entre duas ou mais partes que pode ser usado para manter uma ligação de informação privada.
+
+Algoritmo de chave assimétrica: Criptografia de chave pública, também conhecida como criptografia assimétrica, é qualquer sistema criptográfico que usa pares de chaves: chaves públicas, que podem ser amplamente disseminadas, e chaves privadas que são conhecidas apenas pelo proprietário.
+
+Certificado digital é um documento eletrônico que contém dados sobre a pessoa física ou jurídica que o utiliza, servindo como uma identidade virtual que confere validade jurídica e aspectos de segurança digital em transações digitais. A pessoa possui uma chave privada (que somente ela tem acesso) e também uma chave pública (para compartilhar com quem quiser).
+
+Uma função hash é um algoritmo que mapeia dados de comprimento variável para dados de comprimento fixo.
+
+A criptografia hash é utilizada para resumir dados, verificar integridade de arquivos e garantir a segurança de senhas dentro de um servidor.
+
+A criptografia deve ser unidirecional e resistente a colisões (dois valores de entrada podem até ter a mesma saída, mas isso deve ser extremamente raro e quase impossível de acontecer).\
+
+Assinatura digital é uma tecnologia que permite dar garantia de integridade a autenticidade a arquivos eletrônicos, através da aplicação de operações criptográficas e da utilização de chaves.
+
+A assinatura digital serve para garantir a autenticidade, integridade e o não-repúdio.
+
+-----------------------------------------------------------------------------

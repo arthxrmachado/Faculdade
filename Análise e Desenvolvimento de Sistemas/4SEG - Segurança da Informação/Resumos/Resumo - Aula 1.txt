@@ -1,0 +1,18 @@
+Aula 1 - 4SEG
+
+Segurança da informação: é a proteção da informação contra vários tipos de ameaças para garantir a continuidade, minimizar o risco, maximizar o retorno sobre os 
+investimentos e as oportunidades do negócio.
+
+Devemos garantir às informações e dados: CID.
+
+Confidencialidade: garantir acesso à informação somente por pessoas autorizadas;
+Integridade: garantir a completude e exatidão da informação e os métodos de processamento seguros;
+Disponibilidade: garantir o acesso à informação ou ativos de redes, quando necessário.
+
+Estes princípios foram ampliados para atender a novas necessidades:
+
+Autenticidade: garantir a identidade dos membros de comunicação, bem como a de quem gerou a informação.
+Legalidade: garantir a conformidade da informação com a legislação em todas as esferas;
+Não repúdio: garantir que o gerador da informação não possa negar sua autoria ou alteração;
+Auditoria: garantir o rastreamento dos fatos de um evento e identificar os envolvidos.
+

@@ -1,0 +1,102 @@
+-----------------------------------------------------------------------------
+
+Revisão para a AV2
+
+-----------------------------------------------------------------------------
+
+Para que serve a Governança de TI?
+
+R: Melhorar os processos de TI, alinhar a gestão da TI com estratégias da organização e melhor gerir os recursos.
+
+Como a Governança de TI influencia na empresa?
+
+R: Ajuda a obter todas as vantagens da sua informação, maximiza os benefícios, capitaliza oportunidades e ganho em poder competitivo.
+
+Qual a diferença entre Governança de TI e Gestão de TI?
+
+R: A governança de TI é responsável por definir como funcionam as coisas na TI e verificar se as normas e políticas estão sendo seguidas corretamente. Já a gestão de TI é responsável por manter o desempenho de serviços, promover a transformação digital na empresa, manter a satisfação dos usuários e clientes dos serviços, além de fazer a gestão da equipe de TI.
+
+-----------------------------------------------------------------------------
+
+O que faz o COBIT?
+
+R: Fornece um modelo abrangente que auxilia as organizações a atingirem seus objetivos de governança e gestão de TI. Permite que a TI seja governada e gerida de forma holística para
+toda a organização.
+
+Quais são os princípios do COBIT?
+
+R: Atender as necessidades das partes interessadas, cobrir a empresa de ponta a ponta, aplicar um framework único e integrado, permitir uma abordagem holística e distinguir governança de gestão.
+
+Quais são as sete fases do ciclo de vida da implementação do COBIT?
+
+R: Primeira fase: reconhecimento e aceitação da necessidade de uma implementação. Segunda fase: definição do escopo da implementação. Terceira fase: identificar falhas e possíveis soluções. Quarta fase: cria-se um plano de mudança. Quinta fase: as soluções propostas são implementadas de forma prática. Sexta fase: monitoramento dos benefícios esperados. Sétima fase: o sucesso é analisado, novos requisitos para governça e gestão de TI são identificados e a ideia de melhoria contínua é reforçada.
+
+-----------------------------------------------------------------------------
+
+O que é o ITIL?
+
+Tem como foco principal a operação e a gestão da infraestrutura de tecnologia na organização, incluindo todos os assuntos que são importantes no fornecimento dos serviços de TI.
+
+Quais são os cinco elementos conhecidos como Ciclo de Vida de Serviço? Explique cada um deles.
+
+R: Estratégia de serviço: define as características principais da organização.
+
+Design de serviço: fornece orientação para a concepção e desenvolvimento de serviços que atenderão os objetivos da empresa.
+
+Transição de serviço: fornece um guia para a transição de um serviço novo ou modificado em um serviço pronto para ser lançado.
+
+Operação de serviço: foca na entrega e manutenção do serviço.
+
+Aperfeiçoamento contínuo de serviço: cuida das práticas para avaliar e melhorar a qualidade dos serviços.
+
+-----------------------------------------------------------------------------
+
+O que é a ISO 27000?
+
+R: A ISO 27000 é um conjunto de certificações de segurança da informação e proteção de dados para empresas e órgãos públicos. Elas servem como base para a criação de um Sistema de Gestão de Segurança da Informação (SGSI) em organizações de pequeno, médio e grande porte.
+
+O que é um SGSI?
+
+R: O SGSI reúne políticas, procedimentos e diretrizes de uma organização. O sistema deve estar alinhado aos objetivos de negócio e ser gerenciado de forma conjunta pela empresa.
+
+Quais são os principais norteadores da segurança da informação?
+
+R: CIDA. Confidencialidade, Integridade, Disponibilidade e Autenticidade.
+
+O que é a ISO 27001?
+
+R: Traz os requisitos necessários para a implantação de um SGSI.
+
+O que é a ISO 27002?
+
+R: Código de boas práticas que traz um conjunto de controles necessários para a implantação de um SGSI.
+
+O que é a ISO 27701?
+
+É a certificação mais recente da família ISO 27000. Ela é uma extensão da ISO 27001, esta que trata sobre o SGSI. Já a ISO 27701 aborda o SGSP.
+
+-----------------------------------------------------------------------------
+
+O que é uma metodologia ágil?
+
+R: As metodologias ágeis são uma forma de acelerar entregas de um determinado projeto. Ela consiste no fracionamento de entregas para o cliente final em ciclos menores. Com isso, eventuais problemas podem ser corrigidos mais rapidamente e os planejamentos serem revistos. Assim, o cliente terá uma aproximação maior no desenvolvimento do projeto e, além disso, se  beneficiará com as entregas que forem sendo executadas.
+
+Quais são os principais métodos ágeis?
+
+R: Scrum, Kanban, Lean, Smart, DSDM, SAFE, FDD, XP e MSF.
+
+Quais são os benefícios de se adotar uma metodologia ágil?
+
+R: Aumento na produtividade, múltiplas entregas, maior qualidade do produto, maior engajamento dos colaboradores com o projeto, customização do produto a qualquer momento, redução de  problemas e falhas e aumento na satisfação do cliente.
+
+-----------------------------------------------------------------------------
+
+Manifesto Ágil
+
+Na década de 1990, a indústria do desenvolvimento de software sofria com diversos problemas, como a perda de enormes montantes de dinheiro em projetos que, com altíssima frequência, eram entregues com atraso, excediam orçamentos e estavam rodeados de baixa qualidade. Assim, os desenvolvedores e o mercado como um todo foram amplamente afetados, já que os usuários do software não estavam satisfeitos. Dessa forma, as empresas que demandavam se prejudicavam por causa do prazo e custo. Já os próprios desenvolvedores corriam grandes riscos de serem demitidos, pois não adiantava trabalharem cada vez mais intensamente, porque os problemas continuavam persistindo.
+
+Quais são os quatro valores do Manifesto Ágil?
+
+R: Indivíduos e interações mais do que processos e ferramentas, software em funcionamento mais do que documentação abrangente, colaboração com o cliente mais que negociação de contratos e responder a mudanças mais do que seguir um plano.
+
+-----------------------------------------------------------------------------
