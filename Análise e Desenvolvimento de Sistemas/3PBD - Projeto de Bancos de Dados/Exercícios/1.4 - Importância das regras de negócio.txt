@@ -1,0 +1,22 @@
+1 - 
+
+Regra de negócio 1: os membros pagarão taxas de associação
+Restrição: os membros só podem pertecener a um dos três tipos de associação
+
+Regra de negócio 2: a associação "aluno" é gratuita. As demais associações incorrem em uma taxa.
+Restrição: o tipo de associação só pode ser alterado caso for fornecida uma justificativa suficiente.
+
+Regra de negócio 3: fornecer internet para ser possível navegar em seu repositório com artigos e revistas.
+Restrição: para receber a senha da internet, é necessário ter algum tipo de associação.
+
+2 -
+
+Regra de negócio 1: todo médico registrado nesse hospital recebe um ID exclusivo que começa com as letras "DC".
+Restrição: nem todo médico recebe isso, é necessário estar registrado no hospital.
+
+Regra de negócio 2: todo médico é obrigado a se registrar no hospital.
+Restrição: só são registrados médicos com 7 ou mais anos de experiência.
+
+Regra de negócio 3: cada paciente é obrigado a se registrar no hospital em sua primeira consulta, assim o mesmo recebe um número de paciente
+exclusivo, começando com as letras "PT".
+Restrição: para ser atendido o paciente deve estar registrado no sistema.

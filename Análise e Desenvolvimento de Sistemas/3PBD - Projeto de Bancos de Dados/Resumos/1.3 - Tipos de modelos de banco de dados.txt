@@ -1,0 +1,110 @@
+===============================================================================================================================================
+
+>> Processo de desenvolvimento de banco de dados <<
+
+A modelagem de dados é a primeira parte do processo de desenvolvimento de um banco de dados. 
+
+A modelagem de dados conceitual é o exame de uma empresa e dos dados de negócios a fim de determinar a estrutura das informações e das regras 
+que a regem. 
+Essa estrutura forma a base do design do banco de dados.
+
+Um modelo conceitual é relativamente estável por longos períodos. 
+
+A modelagem de dados física (ou criação do banco de dados) refere-se à implementação em determinado ambiente de hardware e software técnico. 
+A implementação física é altamente dependente do estado atual da tecnologia e está sujeita a alterações, pois as tecnologias disponíveis 
+mudam rapidamente.
+
+===============================================================================================================================================
+
+>> Tipos de modelos de banco de dados <<
+
+Modelo de arquivo simples: 
+
+Um banco de dados em arquivo simples é um banco de dados projetado com base em uma única tabela.
+
+Em geral, os bancos de dados de arquivo simples estão em formato de texto simples, no qual cada linha contém apenas um registro.
+
+Os campos do registro são separados por delimitadores, como tabulações e vírgulas.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelo hierárquico:
+
+Em um modelo de banco de dados hierárquico, os dados são organizados em uma estrutura semelhante a uma árvore.
+
+Os dados são armazenados como registros conectados entre si por meio de vínculos.
+
+Um registro é uma coleção de campos.
+
+Um registro neste modelo corresponde a uma linha no modelo de banco de dados relacional.
+
+Cada registro tem apenas um pai, e um pai pode ter vários registros filhos.
+
+Para recuperar dados de um banco de dados hierárquico, é necessário percorrer toda a árvore a partir do nó raiz.
+
+Vantagens: facilidade em incluir e excluir informações e acesso rápidos ao dados na parte superior da hierarquia.
+
+Desvantagens: maior espaço de armazenamento e acesso mais lento aos dados na parte inferior da hierarquia.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelo de rede:
+
+O modelo de rede pode ser considerado como uma forma flexível de representar objetos e seus relacionamentos.
+
+Este banco de dados compreende um conjunto de registros conectados uns aos outros por meio de vínculos.
+
+Cada registro é um conjunto de campos, cada um contendo apenas um valor de dados.
+
+Um vínculo é uma associação entre dois registros.
+
+Em um modelo de banco de dados de rede, cada registro tem vários registros pais e filhos formando uma estrutura de gráfico generalizada. 
+O modelo de rede possibilita uma forma mais natural de modelar o relacionamento entre registros.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelo orientado a objeto:
+
+Uma entidade é modelada como um objeto.
+
+Cada objeto tem um estado (o conjunto de valores dos atributos do objeto) e um comportamento (o conjunto de métodos que operam no estado do 
+objeto).
+
+O relacionamento entre os objetos ocorre por meio do compartilhamento do acesso.
+
+Um objeto deve pertencer apenas uma classe como uma instância dessa classe.
+
+É possível derivar uma nova classe (subclasse) de uma classe existente (superclasse).
+
+Vantagens: manutenção reduzida, modelagem baseada no mundo real e alta reutilização de código.
+
+Desvantagens: muitos sistemas de aplicativos não se beneficiam deste tipo de modelagem porque ela é mais adequada para ambientes interativos
+e dinâmicos.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelo relacional:
+
+Os dados são representados como um conjunto de tabelas.
+
+Cada coluna representa atributos que pertencem à tabela.
+
+Cada linha representa uma instância da tabela.
+
+Cada tabela é a representação visual de colunas e linhas.
+
+Todas as tabelas têm um campo ou um conjunto de campos que identifica a linha de modo exclusivo.
+
+A ordem das linhas não é importante.
+
+Todas as linhas são exclusivas.
+
+Cada campo pode conter somente um valor.
+
+Os valores em uma coluna ou campo são do mesmo domínio (tipo de dados).
+
+Os nomes de tabelas devem ser exclusivos.
+
+Os nomes de colunas em cada tabela devem ser exclusivos também.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,84 @@
+===============================================================================================================================================
+
+>>> NORMALIZAÇÃO <<<
+
+É o processo de organizar os atributos e as tabelas de um banco de dados relacional para minimizar a redundância.
+
+Ajuda a lidar com anomalias de inserção, atualização e exclusão, garantindo um melhor desempenho do banco de dados.
+
+Normalização: pegar uma tabela maior e produzir uma tabela menor, bem mais estruturada.
+
+A normalização pode envolver a divisão de uma tabela em duas ou mais tabelas.
+
+O objetivo é isolar dados de modo que adições, exclusões e modificações de um atributo ou campo possam ser feitos em apenas uma tabela e, em seguida, por todo o
+restante do banco de dados.
+
+Por que usar?
+
+- Reduzir os dados reduntantes no design existente;
+
+- Aumentar a integridade dos dados e a estabilidade do design;
+
+- Eliminar outros tipos de inconsistências de dados e anormalidades;
+
+- Identificar tabelas, colunas e restrições ausentes.
+
+Primeira forma normal (1NF): todos os atributos devem ter um único valor.
+
+Segunda forma normal (2NF): um atributo deve ser dependente do UID inteiro de sua entidade.
+
+Terceira forma normal (3NF): nenhum atributo que não seja UID pode depender de outro que não seja UID.
+
+===============================================================================================================================================
+
+>>> REGRA DE NEGÓCIOS <<<
+
+É uma declaração que define ou restringe algum aspecto do negócio.
+
+Ela é usada para definir entidades, atributos, relacionamentos e restrições.
+
+Inclui regras e políticas que definem uma empresa e lida com sua operações diárias.
+
+Existem dois tipos de regras de negócios: estruturais e procedurais.
+
+Ex. de estrutural: todos os pedidos devem ter um número de contato.
+
+===============================================================================================================================================
+
+>>> FONTES DE REGRAS DE NEGÓCIOS <<<
+
+- Alta gerência e gerentes;
+
+- Documentação escrita: procedimentos, padrões e manuais de operações;
+
+- Entrevistas diretas com usuários finais.
+
+===============================================================================================================================================
+
+>>> REGRAS DE NEGÓCIO ESTRUTURAIS <<<
+
+Indicam os tipos de informações a serem armazenadas e como seus elementos se inter-relacionam.
+
+As regras de negócio estruturais descrevem um aspecto estático específico no negócio.
+
+Ex.: um registro de vendas incluir PRODUTO, COMPRADOR, QUANTIDADE, PREÇO e DESCONTO.
+
+Todos os pedidos do restaurante devem ser tratados por um membro da equipe (tomador de pedidos).
+
+Todas as regras de negócio estruturais podem ser diagramadas.
+
+===============================================================================================================================================
+
+>>> REGRAS DE NEGÓCIO PROCEDURAIS <<<
+
+As regras procedurais lidam com os pré-requisitos, etapas, processos ou requisitos de fluxo de trabalho de uma empresa.
+
+Várias regras de negócio procedurais estão relacionadas ao tempo: o evento A deve ocorrer antes do evento B.
+
+Algumas regras de negócio procedurais não podem ser diagramadas, mas ainda assim devem ser documentadas para que possam ser programadas posteriormente.
+
+Ex.: uma loja online poderá não aceitar um pedido de entrega no dia seguinte se o pedido for recebido depois das 15h.
+
+A aprovação de solicitações de viagem para uma conferência deve ser assinada pelo gerente.
+
+===============================================================================================================================================

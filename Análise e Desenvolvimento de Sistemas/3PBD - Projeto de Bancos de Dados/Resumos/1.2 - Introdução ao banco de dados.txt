@@ -1,0 +1,171 @@
+===============================================================================================================================================
+
+Introdução a Banco de Dados
+
+-> Qual é a diferença entre dados e informações?
+
+Dados: fatos coletados sobre um tópico ou um item.
+
+Informações: o resultado de combinar, comparar e executar cálculos com base nos dados.
+
+Dados são materiais brutos dos quais você pode tirar conclusões; fatos dos quais você pode deduzir novos fatos.
+
+Informação é o conhecimento, inteligência, dado com um significado ou uma função especial.
+
+A diferença entre dados e informações pode ser explicada usando um exemplo, como pontuações de um teste. Em uma turma, se cada aluno receber 
+uma pontuação numerada, as pontuações poderão ser calculadas para determinar a média da turma. As médias das turmas podem ser calculadas para 
+determinar  a média da escola. 
+
+Então, nesse cenário, como diferenciar dados de informações?
+
+- A pontuação do teste de cada aluno é um dado. 
+- A informação é a pontuação média da turma ou da escola.
+
+===============================================================================================================================================
+
+-> Definição de banco de dados
+
+- É um conjunto centralizado e estruturado de dados armazenados em um sistema de computador;
+
+- Fornece recursos para recuperar, adicionar, modificar e excluir os dados quando necessário;
+
+- Fornece recursos para transformar os dados recuperados em informações úteis;
+
+- É possível definir um sistema de informação como um sistema formal para armazenar e processar dados;
+
+- A maioria das organizações usa um banco de dados para automatizar seus sistemas de informação;
+
+- Um aplicativo de banco de dados é um programa de software que interage com um banco de dados para acessar e manipular dados.
+
+===============================================================================================================================================
+
+-> Introdução a banco de dados relacionais
+
+- Um banco de dados relacional armazena informações em tabelas com linhas e colunas;
+
+- Tabela é um conjunto de registros;
+
+- Uma linha é denominada registro (ou instância);
+
+- Uma coluna é denominada campo (ou atributo).
+
+===============================================================================================================================================
+
+-> Sistema de gerenciamento de banco de dados
+
+- DBMS é um software que controla o armazenamento, a organização e a recuperação de dados.
+
+Um DBMS tem os seguintes elementos:
+
+- O código do kernel gerencia a memória e o armazenamento para o DBMS;
+- O repositório de metadados é denominado dicionário de dados;
+- A linguagem de consulta permite aos aplicativos acessar os dados.
+
+-> Principais termos da computação
+
+Cliente: estação de trabalho ou computador desktop, incluindo uma tela, um teclado e um mouse. Os  clientes se comunicam diretamente com 
+usuários humanos de computador.
+
+Servidor: computador mais poderoso que aceita solicitações de trabalho de clientes, faz o trabalho e envia os resultados de volta para o 
+cliente. 
+
+Toda vez que você solicitar informações de uma página web, seu computador cliente enviará a solicitação para um banco de dados no servidor. 
+O servidor recupera os dados do banco de dados, converte-os em  informações úteis e as envia de volta para o cliente.
+
+===============================================================================================================================================
+
+-> Transformação na computação
+
+Anos 1970: computação baseada em mainframe;
+
+- Nos anos 70, foram feitas tentativas de criar sistema de banco de dados com hardware e software integrados;
+
+- Computadores menores eram usados para acessar o mainframe de grande porte e executar comandos;
+
+- Os resultados de um computador menor (terminal burro) só era exibido após o processamento ser concluído no mainframe.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Anos 1980: computação baseada em desktop;
+
+- Como os computadores tinham agora seu próprio software e podiam fazer parte do processamento por conta própria, tornaram-se conhecidos como 
+"clientes inteligentes" ou "estações de trabalho".
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Anos 1990: computação cliente-servidor;
+
+- A computação cliente/servidor utiliza a internet e servidores de processamento rápido para atender as necessidades de armazenamento de dados
+e produção de informações das organizações;
+
+- O software que gerencia os dados fica localizado no servidor de banco de dados e executa o processamento para armazenamento e recuperação.
+
+- Os aplicativos voltados às operações de negócios ficam localizados no servidor de aplicativos e executam o processamento para a criação de 
+documentos, desenvolvimento, interação e manipulação de dados;
+
+A atualização foi um dos problemas decorrentes de existirem vários aplicativos em várias estações de  trabalho clientes. Uma atualização feita
+em um aplicativo de software exigia que todos os servidores, bem como todos os clientes, fossem atualizados. Isso abriu caminho para a 
+computação em grade.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Anos 2000: computação em grade;
+
+- Nesse modelo, todos os computadores de uma organização em diferentes locais, podem ser utilizados como um pool de recursos de computação;
+
+- Cria uma infraestrutura de software que pode ser executada em um grande número de servidores em rede;
+
+- O usuário faz uma solicitação em seu computador e essa solicitação é processada em algum lugar da grade, com o máximo de eficiência possível.
+
+A computação em grade trata a computação como um serviço público, como a empresa de energia elétrica. Você não sabe onde está o gerador ou como
+a grade elétrica é abastecida. Você apenas solicita eletricidade e a obtém.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Anos 2010: computação em nuvem.
+
+- IaaS: permite alugar servidores, armazenamento, sistemas operacionais e etc, baseados em nuvem;
+
+- PaaS: permite acesso a um ambiente online para desenvolvimento e teste de software sem custos de configuração ou gerenciamento;
+
+- SaaS: fornece softwares diretamente da internet. Normalmente os usuários o acessam em um navegador web.
+
+A maioria das pessoas usa serviços em nuvem (baseados na Web) durante todo o tempo sem se dar conta disso. O armazenamento de arquivos on-line, como fotografias,
+bem como o uso de serviços de assinatura de filmes ou o uso de jogos on-line, são exemplos de computação em nuvem.
+
+===============================================================================================================================================
+
+-> Cronograma histórico do banco de dados
+
+Anos 60: os computadores tornaram-se econômicos para as empresas privadas, além de fornecerem maior capacidade de armazenamento;
+
+Anos 70-72: E.F. Codd propõe o modelo relacional para banco de dados, desconectando a organização lógica do armazenamento físico;
+
+Ano 76: P. Chen propõe o modelo entidade-relacionamento para o design de banco de dados;
+
+Início de 80: os sistemas relacionais comercialmente disponíveis começam a aparecer com o Oracle Versão 2;
+
+Meados de 80: SQL se torna amplamente utilizado;
+
+Anos 90: o grande investimento de empresas da internet ajuda a criar um boom do mercado de ferramentas para conectores de BD/web/internet;
+
+Anos 00: o crescimento sólido de aplicativos BD continua;
+
+Anos 10: a ascensão dos serviços baseados em nuvem.
+
+===============================================================================================================================================
+
+Exemplos:
+
+- Escolas e faculdades usam banco de dados para manter detalhes sobre cursos, alunos e corpo docente;
+
+- Os bancos utilizam banco de dados para armazenar informações sobre clientes, contas, empréstimos e transações;
+
+- Companhias aéreas e ferroviárias usam o banco de dados online para reservas e exibição de informações sobre a programação;
+
+- Os departamentos de telecomunicações armazenam números de telefone, detalhes de chamadas e contas mensais;
+
+- Em finanças e comércio, os bancos de dados são usados para armazenar informações relativas à vendas, compras de ações e títulos ou comércio 
+online;
+
+- As organizações usam para armazenar informações sobre funcionários, salários, benefícios, impostos e para gerar contracheques.

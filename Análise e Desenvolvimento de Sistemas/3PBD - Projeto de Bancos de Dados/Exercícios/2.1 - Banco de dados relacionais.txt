@@ -1,0 +1,30 @@
+1 -
+
+Tabela: livro
+Colunas: título, ISBN, ano, preço, autor e editora.
+
+Tabela: editora
+Coluna: editora, nome, endereço, telefone e URL.
+
+Tabela: autor
+Coluna: autor, nome, endereço e URL.
+
+Tabela: livraria
+Coluna: nome, endereço, ID do e-mail, telefone dos clientes, depósito, código, endereço e telefone próprio.
+
+Tabela: depósito
+Coluna: livro, número de cópias de um determinado livro.
+
+Tabela: cliente
+Coluna: carrinho de compras, endereço de cobrança, endereço de entrega, opção de envio, pagamento, nome e e-mail.
+
+2 -
+
+Tabela: cliente
+Colunas: cadastro, pedido e pagamento
+
+Tabela: estoque
+Colunas: detalhes do produto, fornecedor preferencial, fornecedor alternativo, quantidade em estoque e nível de reabastecimento
+
+Tabela: banco de dados
+Colunas: fatura, lista de pedidos pendentes, fornecedor preferencial e fornecedor alternativo

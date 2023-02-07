@@ -1,0 +1,83 @@
+===============================================================================================================================================
+
+>>> RELACIONAMENTOS INTRANSFERÍVEIS <<<
+
+Transmissibilidade é a capacidade de o relacionamento entre duas instâncias de uma entidade mudar com o tempo.
+
+Um relacionamento intransferível não pode ser movido entre instâncias das entidades que ele conecta.
+
+Relacionamentos intransferíveis só podem ser obrigatórios.
+
+Ex.: O país de nascimento de uma pessoa nunca muda, por isso é intransferível.
+
+===============================================================================================================================================
+
+>>> SUPERTIPO E SUBTIPO <<<
+
+Um subtipo é um agrupamento da entidade em um tipo de entidade que tem atributos distintos dos contidos em outros subagrupamentos.
+
+Cada subtipo é uma especialização de um supertipo e, portanto, deve ser colocado em uma entidade.
+
+Um subtipo:
+
+- Herda todos os atributos do supertipo;
+
+- Herda todos os relacionamentos do supertipo;
+
+- Em geral, tem seus próprios atributos e relacionamentos;
+
+- É desenhado dentro do supertipo;
+
+- Nunca existe sozinho;
+
+- Pode ter seus próprios subtipos;
+
+- Tem chaves primárias idênticas do supertipo e subtipo;
+
+Ex.: 
+
+Supertipo: QUARTO
+Subtipo: Suíte, Quarto de Solteiro e Quarto de Casal.
+
+===============================================================================================================================================
+
+>>> GENERALIZAÇÃO E ESPECIALIZAÇÃO <<<
+
+Generalização: é uma abordagem de baixo para cima na qual duas ou mais entidades de nível inferior são combinadas para formar uma entidade de nível superior
+com base nas características em comum
+
+Ex.: CARRO e CAMINHÃO viram VEÍCULO.
+
+Especialização: é uma abordagemd e cima para baixo na qual a entidade de nível superior é dividida em entidades de nível inferior.
+
+Ex.: EMPREGADO é dividido em EMPREGADO ATUAL e EX-EMPREGADO.
+
+===============================================================================================================================================
+
+>>> REGRAS DE SUBTIPO DE ENTIDADE <<<
+
+-> Completas:
+
+Todas as instâncias do supertipo também são instâncias de um dos subtipos.
+
+OTHER deve ser incluído como um subtipo para categorizar instâncias não definidas por um dos subtipos existentes.
+
+Ex.: Um funcionário deve trabalhar em tempo integral, meio-período ou outro.
+
+-> Mutuamente exclusivas:
+
+Cada instância do supertipo também são instâncias de um dos subtipos.
+
+Ex.: Um funcionário não pode trabalhar em tempo integral e meio-período.
+
+===============================================================================================================================================
+
+>>> RELACIONAMENTO DE ARCO <<<
+
+Um arco é um grupo de relacionamentos exclusivos, que é definido de forma que apenas um dos relacionamentos possa existir para qualquer instância de uma
+entidade.
+
+Um arco pertence a uma única entidade e deve incluir somente relacionamentos que se originam dela.
+
+Uma entidade pode ter vários arcos, mas um relacionamento específico pode participar de apenas um único arco.
+

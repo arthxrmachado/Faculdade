@@ -1,0 +1,63 @@
+===============================================================================================================================================
+
+>>> TABELA ÚNICA <<<
+
+Um banco de dados de arquivo simples é um tipo de banco de dados que armazena dados em uma única tabela.
+
+Este tipo de banco de dados é mais fácil e mais barato de usar. Ele atende as necessidades de pequenas empresas e usuários domésticos.
+
+Vantagens: 
+
+-> Fácil de entender;
+-> Fácil de implementar; 
+-> Fácil de extrair informações; 
+-> Todos os registros ficam armazenados em um só local; 
+-> Classificação e filtragem simples de relatórios; 
+-> Menos requisitos de hardware e software.
+
+Desvantagens: 
+
+-> Não há segurança;
+-> Não há backup e recuperação;
+-> Não há proteção de dados em acesso simultâneo;
+-> Não há suporte para acesso de vários usuários;
+-> Limitado a bancos de dados menores;
+-> Funcionalidade limitada;
+-> Problemas de integridade
+-> Incosistência de dados; 
+-> Redundância de dados; 
+-> Compartilhamento complicado de informações; 
+-> Lento para banco de dados muito grandes.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> BANCO DE DADOS RELACIONAIS <<<
+
+Um banco de dados relacional apresenta informações em tabelas com linhas e colunas.
+
+Cada coluna representa um tipo específico de informação e cada linha um registro.
+
+Em seguida, as tabelas são relacionadas umas às outras por meio de um campo comum.
+
+
+Um campo exclusivo chamado "chave" é usado para identificar cada registro em um banco de dados relacional.
+
+Vantagens:
+
+-> Menos redundância;
+-> Possibilidade de evitar inconsistência;
+-> Eficiência;
+-> Integridade dos dados;
+-> Confidencialidade.
+
+Regras para tabelas de bancos de dados relacionais:
+
+-> Cada tabela tem um nome distinto;
+-> Cada tabela pode conter várias linhas;
+-> Cada tabela tem um valor para identificar as linhas de forma exclusiva;
+-> Cada coluna de uma tabela tem um nome exclusivo;
+-> As entradas das colunas são valores únicos;
+-> As entradas das colunas são do mesmo tipo;
+-> A ordem das linhas e colunas é insignificante.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

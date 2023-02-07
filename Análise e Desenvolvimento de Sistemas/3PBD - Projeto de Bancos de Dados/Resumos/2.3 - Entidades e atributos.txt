@@ -1,0 +1,62 @@
+===============================================================================================================================================
+
+>>> ENTIDADE <<<
+
+São categorias de itens que são importantes para uma empresa e sobre os quais é necessário manter informações. As entidades contêm fatos e informações que a
+empresa precisa saber e lembrar.
+
+Ex.: Pessoa - agente, segura, funcionário, cliente... / Lugar -  estado, país, município...
+
+===============================================================================================================================================
+
+>>> ATRIBUTOS <<<
+
+Os atributos descrevem entidades e são as informações específicas que precisam ser conhecidas.
+
+Atributos voláteis: são instáveis. ex.: idade.
+
+Atributos não voláteis: são estáveis. ex.: data de nascimento.
+
+===============================================================================================================================================
+
+>>> NOTAÇÃO BARKER <<<
+
+Caixas retangulares, mas com as pontas circulares.
+
+* -> campo obrigatório
+
+o -> campo opcional
+
+# -> identificador de usuário (UID)
+
+Um relacionamento pode existir entre duas entidades, no máximo.
+
+Um relacionamento pode existir na mesma entidade (recursivo).
+
+As duas perspectivas de um relacionamento devem ser identificadas.
+
+Ex.: um empregado trabalha em um departamento. um departamento contêm um empregado.
+
+===============================================================================================================================================
+
+>>> NOTAÇÃO DE BACHMAN <<<
+
+Entidade representada por uma caixa. 
+
+* -> campo obrigatório
+
+(nada) -> campo opcional
+
+P -> identificador de usuário (UID)
+
+F -> atributo criado pelo relacionamento.
+
+===============================================================================================================================================
+
+>>> NOTAÇÃO DE ENGENHARIA DE INFORMAÇÕES <<<
+
+Ela não permite um relacionamento ternário e nem mostra atributos associados a um relacionamento.
+
+A única desvantagem dessa notação é que ela não permite a identificação dos atributos de uma entidade.
+
+===============================================================================================================================================

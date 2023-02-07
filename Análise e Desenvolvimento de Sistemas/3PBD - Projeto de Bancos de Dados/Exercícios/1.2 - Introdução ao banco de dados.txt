@@ -1,0 +1,14 @@
+1.2 - Introdução ao banco de dados
+
+Exercícios:
+
+1 - O banco de dados precisa armazenar os seguintes dados: nome, sobrenome, e-mail, data de nascimento, RG, CPF, telefone ou celular, gênero, 
+estado civil, ano em que deseja se matricular (caso seja um colégio), nome da mãe e nome do pai.
+
+2 - O banco de dados em relação a parte de gerenciamento de livros precisa armazenar os seguintes dados: nome do livro, data em que o livro 
+chegou a biblioteca, estado do livro (disponível ou reservado), quantas vezes o livro já foi emprestado, quantas cópias deste livro existe na 
+biblioteca, seção em que o livro fica, gênero do livro.
+
+	O banco de dados em relação a parte de cliente e atividades precisa armazenar: nome, sobrenome, RG ou CPF, telefone ou celular, e-mail 
+	(opcional), quantos livros já reservou, quantos livros deixou de entregar, quantos livros está reservado no momento e quantas vezes já fez 
+	um check-in na biblioteca.

@@ -1,0 +1,41 @@
+===============================================================================================================================================
+
+>>> RELACIONAMENTOS <<<
+
+Cada relacionamento sempre tem duas regras de negócios.
+
+Ex.: um DEPARTAMENTO pode conter um ou vários EMPREGADOS.
+
+Ex.: um EMPREGADO deve ser atribuído a um e apenas um DEPARTAMENTO.
+
+A linha do relacionamento é sólida (obrigatória) ou tracejada (opcional).
+
+Essas linhas terminam com uma linha única (uma instância) ou com pés-de-galinha (uma ou mais instâncias).
+
+===============================================================================================================================================
+
+>>> CHAVE ESTRANGEIRA <<<
+
+Uma chave estrangeira (FK) é uma coluna ou uma combinação de colunas em uma tabela que faz referência a uma chave primária na mesma tabela ou em outra.
+
+===============================================================================================================================================
+
+>>> COMPONENTES DE UM RELACIONAMENTO <<<
+
+Nome: o rótulo que aparece próxima da entidade à qual ele é atribuído.
+
+Cardinalidade: o número mínimo e máximo de valores no relacionamento. (linha sólida: um e apenas um / pés-de-galinha: um ou mais).
+
+Opcionalidade: indica se o relacionamento deve existir. (opcional: pode ser ou pode / obrigatório: deve ser ou deve).
+
+===============================================================================================================================================
+
+>>> TIPOS DE RELACIONAMENTO <<<
+
+Muitos para um (M:1).
+
+Um para muitos (1:M).
+
+Muitos para muitos (M:M).
+
+Um para um (1:1).

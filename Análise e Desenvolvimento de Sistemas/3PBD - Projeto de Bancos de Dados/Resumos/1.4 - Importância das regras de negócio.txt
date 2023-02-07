@@ -1,0 +1,48 @@
+===============================================================================================================================================
+
+>> Importância das regras de negócio <<
+
+É importante identificar e documentar as regras e negócios ao projetar um banco de dados.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Regras de negócios:
+
+- Permitem ao desenvolver, entender o relacionamento e as restrições das entidades participantes;
+
+- Ajudam a entender o procedimento de padronização seguida por uma organização ao lidar com um grande volume de dados;
+
+- Devem ser simples e fáceis de entender;
+
+- Devem estar sempre atualizadas.
+
+As regras de negócios são usadas para entender os processos de negócios, bem como a natureza, a função e o escopo dos dados.
+
+As regras de negócios ajudam a categorizar e projetar tabelas de banco de dados.
+
+Em geral, as regras de negócios são fornecidas por: gerentes, elaboradores de políticas, documentação e manuais de operação, procedimentos e
+padrões organizacionais e entrevistas com usuários finais.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelagem Conceitual:
+
+Um modelo conceitual é importante para os negócios porque:
+
+- Descreve exatamente as necessidades de informações do negócio;
+
+- Facilita a discussão;
+
+- Evita erros e mal-entendidos;
+
+- Forma uma documentação importante do "sistema ideal";
+
+- Cria uma base sólida para o design do banco de dados físico;
+
+- Documenta processos (regras de negócios) da empresa;
+
+- Leva em conta as leis e os regulamentos que regem esse setor.
+
+Nem todas as regras de negócios podem ser modeladas em um banco de dados.
+
+===============================================================================================================================================

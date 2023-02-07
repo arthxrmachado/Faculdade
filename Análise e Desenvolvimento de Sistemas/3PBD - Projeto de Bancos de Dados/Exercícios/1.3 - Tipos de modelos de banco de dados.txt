@@ -1,0 +1,13 @@
+1.3 - Tipos de modelos de banco de dados
+
+1)
+
+a - Modelo hierárquico.
+
+b - Modelo de rede.
+
+c - Modelo orientado a objeto.
+
+d - Modelo relacional.
+
+e - Modelo de arquivo simples.

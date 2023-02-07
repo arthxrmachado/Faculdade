@@ -1,0 +1,73 @@
+===============================================================================================================================================
+
+>>> O QUE É UM MODELO CONCEITUAL? <<<
+
+A modelagem conceitual é a forma mais natural dos fatos e estão mais próximas da realidade do ambiente do cliente. No modelo conceitual o cliente deverá ser 
+envolvido a fim de obter o levantamento de dados que darão suporte à construção de todo o modelo.
+
+Captura as necessidades funcionais e de informações de uma empresa.
+
+Facilita a discussão.
+
+Evita erros e mal-entendidos.
+
+Cria uma base sólida para o design do banco de dados físico.
+
+Documenta regras de negócio da empresa.
+
+Leva em conta as leis e regulamentos que regem esse setor.
+
+Atende às necessidades de uma empresa, mas não trata da implementação.
+
+Identifica:
+
+- entidades importantes (objetos que se tornam tabelas no banco de dados)
+- relacionamento entre entidades 
+
+Não especifica:
+
+- atributos (objetos que se tornam colunas ou campo no banco de dados)
+- identificadores exclusivos (atributo que se torna a chave primária no banco de dados)
+
+===============================================================================================================================================
+
+>>> O QUE É UM MODELO LÓGICO? <<<
+
+Inclui todas as entidades e os relacionamentos entre elas.
+
+É denominado um modelo entidade-relacionamento (ERM).
+
+É ilustrado em um ERD.
+
+Especifica todos os atributos e identificadores de usuários (UIDs) de cada entidade.
+
+Determina a opcionalidade do atributo e a cardinalidade dos relacionamentos.
+
+Esse modelo descreve os dados o mais detalhadamente possível, sem se preocupar com sua implementação física no banco de dados. É normalmente derivado de um 
+modelo de dados conceitual.
+
+===============================================================================================================================================
+
+>>> O QUE É UM MODELO FÍSICO? <<<
+
+É uma extensão de modelo de dados lógico. 
+
+- Define precisão, tipos de dados e definições de tabelas.
+- Identifica views, índices e outros objetos do banco de dados.
+
+Descreve como os objetos devem ser implementados em um banco de dados específico.
+
+Mostra todas as estruturas de tabelas, incluindo colunas, chaves primárias e estrangeiras.
+
+Essa modelagem lida com a conversão do modelo de dados lógico em um modelo de banco de dados relacional. Cada modelo relacional pode ter um ou mais modelos 
+físicos.
+
+===============================================================================================================================================
+
+>>> MODELO FÍSICO E CONCEITUAL <<<
+
+A arte de planejar, desenvolver e comunicar produz um resultado desejado.
+
+A modelagem de dados é o processo de capturar os conceitos e regras importantes que formam uma empresa e mostrá-los visualmente em um diagrama.
+
+O sonho do cliente (modelo conceitual) torna-se uma realidade física (modelo físico).

@@ -1,0 +1,22 @@
+1 - 
+
+Cliente, equipe, pedido, estoque, e funcionário.
+
+2 e 3-
+
+Cliente: nome completo(*), endereço(*), número de telefone(o), e-mail(*), equipe(o) e saldo atual (*)
+
+Equipe: nome completo do responsável (*), número de telefone do resposável(o), e-mail do responsável(*), equipe do responsável(*), saldo atual do responsável(*) e
+número de jogadores (*).
+
+Representante de vendas: nome completo(*), endereço(*), número de telefone(o), e-mail(*), comissão total(*), e taxa de comissão(*).
+
+Pedido: data de compra(*)(não volátil), item comprado(*)(não volátil), tamanho do item(o)(não volátil), cor do item(o)(não volátil), número de unidades(*)(não volátil), 
+preço do item(*)(não volátil) e preço total(*)(não volátil).
+
+Item: descrição(*) e preço(*).
+
+Estoque: descrição(*)(não volátil), preço(*), nome do item(*), cor do item(o)(não volátil), tamanho do item(o)(não volátil), categoria do item(*)(não volátil) e 
+número de unidades disponíveis(*).
+
+4 -

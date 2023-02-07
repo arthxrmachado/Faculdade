@@ -1,0 +1,17 @@
+===============================================================================================================================================
+
+>>> MODELAR DADOS AO LONGO DO TEMPO: ACOMODANDO DADOS HISTÓRICOS <<<
+
+A maioria das empresas precisa rastrear alguns dados históricos para ajudar a encontrar tendências e padrões que podem ser a base para inovações dos negócios ou
+melhoria dos processos.
+
+Cada atualização de um atributo ou transferência de um relacionamento, significa perda de informações. Em geral, as informações não são mais úteis, mas alguns
+sistemas devem monitorar alguns ou todos os valores históricos de um atributo.
+
+Alguns sistemas precisa manter uma trilha de auditoria de cada transação.
+
+- Crie entidades adicionais para rastrear valores dos atributos ao longo do tempo.
+
+- Adicione uma entidade para acomodar um relacionamento que pode mudar ao longo do tempo.
+
+===============================================================================================================================================

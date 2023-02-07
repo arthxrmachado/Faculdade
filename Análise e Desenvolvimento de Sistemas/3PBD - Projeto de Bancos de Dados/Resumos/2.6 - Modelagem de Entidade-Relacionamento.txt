@@ -1,0 +1,42 @@
+===============================================================================================================================================
+
+>>> DIAGRAMA ENTIDADE-RELACIONAMENTO (ERD) <<<
+
+É um modelo que identifica os conceitos ou as entidades que existem em um sistema e os relacionamentos entre essas entidades.
+
+- O analista/designer do banco de dados obtém um melhor entendimento das informações que o banco de dados deverá conter, por meio do processo de construção do ERD.
+
+- Ele serve como uma ferramenta de documentação.
+
+- É usado para comunicar a estrutura lógica do banco de dados com aos usuários.
+
+Criando um ERD:
+
+Criar entidades e atributos -> escolher identificadores exclusivos -> criar relacionamentos -> identificar opcionalidades e cardinalidades -> verificar o modelo
+
+===============================================================================================================================================
+
+>>> MODELO INDEPENDENTES DE IMPLEMENTAÇÃO <<<
+
+Um modelo de dados lógico adequado permanece o mesmo, independentemente do tipo do sistema de banco de dados no qual ele venha a ser criado ou implementado.
+
+===============================================================================================================================================
+
+>>> MODELO ENTIDADE-RELACIONAMENTO (ERM) <<<
+
+Seu objetivo é criar um panorama claro das informações que serão armazenadas em um futuro banco de dados.
+
+É uma lista de todas as entidades e atributos, bem como de todos os relacionamentos entre as entidades relevantes.
+
+Fornece informações de background como: descrições de entidades, tipos de dados e restrições.
+
+Objetivos dessa modelagem:
+
+- Capturar todas as informações necessárias;
+
+- Garantir que as informações apareçam apenas uma vez;
+
+- Não modelar informações derivadas de outras informações já modeladas;
+
+- Colocar informações em um local lógico e previsível.
+

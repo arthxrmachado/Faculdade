@@ -1,0 +1,25 @@
+===============================================================================================================================================
+
+>>> IDENTIFICADORES EXCLUSIVOS <<<
+
+-> É exclusivo em todas as instâncias da entidade.
+
+-> Tem um valor não NULL para cada instância da entidade durante a vida útil da instância.
+
+-> Tem um valor que nunca muda durante a vida útil de uma instância
+
+Cada instância deve ter um identificador exclusivo, caso não tenha, não é uma entidade.
+
+Às vezes, um único atributo não é suficiente para identificar uma instância de uma entidade de modo exclusivo.
+
+Se o UID for uma combinação de atributos, ele será denominado UID composto.
+
+UID Simples - CONCERT TICKET (#Número do ticket, *Nome).
+
+UID Composto - CONCERT TICKET (#Dia da performance #Número do assento).
+
+Um UID torna-se uma chave primária (PK) quando o modelo lógico é transformado em um banco de dados físico.
+
+Uma PK é uma coluna de uma tabela existente ou uma coluna gerada especificamente pelo banco de dados de acordo com uma sequência definida.
+
+===============================================================================================================================================

@@ -1,0 +1,12 @@
+1 -
+
+Regra de negócio: garantir que terão kits de beisebol para atender toda a comunidade local;
+
+Regra de negócio: Quando o cliente faz o pedido, é registrado os itens desse pedido no banco de dados.
+
+Suposição: Clientes após determinada compra poderão escolher um time para representá-los;
+
+Suposição: Os primeiros clientes ganharão um desconto sobre o preço da lista, dependendo do número de jogadores.
+
+Problema: A OBL tem uma equipe de três representantes de vendas que, embora oficialmente atendam somente as equipes, costumam tratar das queixas
+de clientes individuais.

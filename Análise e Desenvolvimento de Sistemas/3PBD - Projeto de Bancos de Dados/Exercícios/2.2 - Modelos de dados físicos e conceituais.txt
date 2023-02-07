@@ -1,0 +1,10 @@
+1 -
+
+Capturar as necessidades funcionais e de informações de uma empresa, identifica entidades importantes, identifica relacionamentos entre entidades e as 
+características da mesma. Assim, depois de criado esse modelo, é possível passar para mais adiante, com um modelo lógico e físico.
+
+2 -
+
+Modelo conceitual:
+
+Modelo físico: 

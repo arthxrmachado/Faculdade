@@ -1,0 +1,25 @@
+Introdução ao Curso
+
+Metas:
+
+- Descrever a finalidade de um banco de dados relacional;
+
+- Descrever os principais requisitos de negócios ao desenvolver um banco de dados;
+
+- Usar a modelagem de dados para construir um banco de dados relacional;
+
+- Desenvolver um diagrama entidade-relacionamento para modelar dados;
+
+- Usar o Oracle SQL Developer Data Modeler para criar diagramas entidade-relacionamento;
+
+- Mapear um modelo físico a partir de um diagrama entidade-relacionamento;
+
+- Criar um modelo físico a partir de um modelo lógico (diagrama entidade-relacionamento);
+
+ -Criar, executar e salvar instruções SQL no Oracle Application Express.
+
+Programas:
+
+- Oracle SQL Developer Data Modeler
+- Oracle APEX
+- Oracle Database 12c
